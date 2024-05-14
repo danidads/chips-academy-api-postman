@@ -1,0 +1,81 @@
+{
+	"id": "dc2814ba-8070-4715-8227-3ecc09323903",
+	"name": "chips",
+	"values": [
+		{
+			"key": "url",
+			"value": "https://chips.qacoders-academy.com.br",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "FirstName",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "LastName",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "FullName",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "random_email",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Email",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "CPF",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Password",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ConfirmPassword",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "IdUser",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Token",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Token_Adm",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-05-14T13:23:08.686Z",
+	"_postman_exported_using": "Postman/11.1.0"
+}
