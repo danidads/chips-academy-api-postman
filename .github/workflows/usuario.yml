@@ -15,7 +15,7 @@ on:
 jobs:
 
   test: 
-  - name: usuario com sucesso
+  name: usuario com sucesso
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
    
@@ -47,32 +47,32 @@ jobs:
           path: ./result/
           
   deploy:
-    - name: Deploy GitHub Pages 🌐
-    runs-on: ubuntu-latest
-    if: always()
-    needs: 
+  name: Deploy GitHub Pages 🌐
+  runs-on: ubuntu-latest
+  if: always()
+  needs: 
       - test
     permissions:
       contents: read
       pages: write
       id-token: write
     environment:
-    - name: github-pages
+    name: github-pages
       url: https://danidads.github.io/chips-academy-api-postman/Report.html
     steps:
-    - name: Setup Pages
+    name: Setup Pages
         uses: actions/configure-pages@v5
  
-    - name: Download Artifacts
+    name: Download Artifacts
         uses: actions/download-artifact@v4
         with: 
           name: report
  
-    - name: Upload artifact
+    name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./
  
-    - name: Deploy to Github Pages
+    name: Deploy to Github Pages
         id: deployment
         uses: actions/deploy-pages@v4
