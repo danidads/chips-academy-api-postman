@@ -62,7 +62,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://danidads.github.io/chips-academy-api-robot/Report.html
+      url: https://danidads.github.io/chips-academy-api-postman/Report.html
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v5
